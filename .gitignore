@@ -1,0 +1,60 @@
+# ======================================
+# Python
+# ======================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ======================================
+# Virtual Environment
+# ======================================
+.venv/
+venv/
+
+# ======================================
+# Jupyter
+# ======================================
+.ipynb_checkpoints/
+
+# Notebook original da disciplina
+4_Regressao_Trabalho_Pratico.ipynb
+
+# ======================================
+# IDEs
+# ======================================
+.vscode/
+.idea/
+
+# ======================================
+# Environment variables
+# ======================================
+.env
+.env.*
+
+# ======================================
+# Python tooling
+# ======================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ======================================
+# Operating System
+# ======================================
+.DS_Store
+Thumbs.db
+
+# ======================================
+# Data
+# ======================================
+data/raw/*
+data/processed/*
+data/external/*
+
+# Manter a estrutura das pastas
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
