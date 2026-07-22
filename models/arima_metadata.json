@@ -1,0 +1,14 @@
+{
+  "target": "Close_diff",
+  "order": [
+    0,
+    0,
+    1
+  ],
+  "train_end": "2025-01-22",
+  "validation_end": "2025-10-17",
+  "test_start": "2025-10-20",
+  "test_observations": 186,
+  "validation_mse": 0.245451137852231,
+  "validation_mae": 0.3478258814747857
+}
